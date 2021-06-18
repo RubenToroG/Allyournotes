@@ -8,21 +8,21 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ruben Dario Toro Gutierrez",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
     "express": "^4.17.1",
-    "express-handlebars": "^4.0.3",
-    "express-session": "^1.17.1",
+    "express-handlebars": "^4.0.6",
+    "express-session": "^1.17.2",
     "method-override": "^3.0.0",
-    "mongoose": "^5.9.9",
+    "mongoose": "^5.12.14",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "handlebars": "^4.7.6",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.7"
   }
 }

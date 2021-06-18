@@ -28,7 +28,7 @@ app.set('view engine', '.hbs'); //configura motor de plantillas
 app.use(express.urlencoded({extended: false}));
 app.use(methodOverride('_method'));
 app.use(session({
-    secret: 'mysecretapp',  //palabra secreta
+    secret: 'PALABRA PARA ENCRIPTACION! DEBE DE SER SECRETA!',  //palabra secreta
     resave: true,
     saveUninitialized: true    
 }));

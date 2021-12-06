@@ -4,7 +4,11 @@ const exphbs = require('express-handlebars'); //motor de plantillas
 const methodOverride = require('method-override');//formularios pueden enviar otros tipos de metodos
 const session = require('express-session');
 const flash = require('connect-flash')
-const passport = require('passport')
+const passport = require('passport');
+
+//variables de entorno en toda la app
+const dotenv = require(dotenv);
+dotenv.config();
 
 //Initializacions----------------------------------------------------------------------------------
 const app = express();

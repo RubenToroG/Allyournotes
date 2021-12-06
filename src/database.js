@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://rubens:PASSWORD@cluster0-nzfaq.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect(process.env.DATABASE_URL, {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false,

@@ -1,3 +1,7 @@
 node_modules/
 *.jpg
-src/database.js
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
